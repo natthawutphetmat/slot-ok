@@ -15,8 +15,9 @@ import "./Footer.css"; // นำเข้า CSS แยกไฟล์
 export default function Footer() {
   return (
     <footer id="footer" className="footer-wrapper bg-dark text-light mt-5 pt-4">
-      {/* เมนูสำหรับมือถือ */}
-      <div className="menu-mobile shadow-lg">
+   
+       <section> 
+       <div className="menu-mobile shadow-lg">
         <div className="menu-mobile-row">
           <Link href="/" className="menu-mobile-btn">
             <FontAwesomeIcon icon={faHome} />
@@ -24,30 +25,33 @@ export default function Footer() {
           </Link>
         </div>
         <div className="menu-mobile-row">
-          <Link href="https://t.ly/AZZ" className="menu-mobile-btn">
+          <Link href=" " className="menu-mobile-btn">
             <FontAwesomeIcon icon={faGift} />
             <p>โปรโมชั่น</p>
           </Link>
         </div>
         <div className="menu-mobile-row">
-          <Link href="https://t.ly/AZZ" className="menu-mobile-btn">
+          <Link href=" " className="menu-mobile-btn">
             <FontAwesomeIcon icon={faUserPlus} />
             <p>สมัครสมาชิก</p>
           </Link>
         </div>
         <div className="menu-mobile-row">
-          <Link href="https://t.ly/AZZ" className="menu-mobile-btn">
+          <Link href=" " className="menu-mobile-btn">
             <FontAwesomeIcon icon={faPlay} />
             <p>ทดลองเล่น</p>
           </Link>
         </div>
         <div className="menu-mobile-row">
-          <Link href="https://line.me/ti/p/@bfgun" className="menu-mobile-btn">
+          <Link href=" " className="menu-mobile-btn">
             <FontAwesomeIcon icon={faLine} />
             <p>ติดต่อเรา</p>
           </Link>
         </div>
       </div>
+      </section>
+
+
 
       {/* เมนูหลัก Footer */}
       <div className="footer-widgets text-center">
@@ -61,19 +65,19 @@ export default function Footer() {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/sitemap_index.xml">Sitemap</Link>
+                  <Link href="/ ">Sitemap</Link>
                 </li>
                 <li>
-                  <Link href="/privacy-policy">นโยบายความเป็นส่วนตัว</Link>
+                  <Link href="/ ">นโยบายความเป็นส่วนตัว</Link>
                 </li>
                 <li>
-                  <Link href="/terms-and-conditions">ข้อกำหนด และเงื่อนไข</Link>
+                  <Link href="/ ">ข้อกำหนด และเงื่อนไข</Link>
                 </li>
                 <li>
-                  <Link href="/contact-us">ติดต่อเรา</Link>
+                  <Link href="/ ">ติดต่อเรา</Link>
                 </li>
                 <li>
-                  <Link href="/blog">บทความ</Link>
+                  <Link href="/">บทความ</Link>
                 </li>
               </ul>
             </div>

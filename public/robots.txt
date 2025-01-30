@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://adsdep.com/
+Host: https://ad-dev.net/
 
 # Sitemaps
-Sitemap: https://adsdep.com/sitemap.xml
+Sitemap: https://ad-dev.net/sitemap.xml

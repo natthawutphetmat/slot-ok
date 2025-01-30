@@ -1,6 +1,6 @@
 
     module.exports = {
-        siteUrl: 'https://adsdep.com/',
+        siteUrl: 'https://ad-dev.net/',
         generateRobotsTxt: true, // (optional)
         // อื่นๆ การตั้งค่าของคุณ
         transform: async (config, path) => {
