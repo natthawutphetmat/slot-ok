@@ -1,0 +1,9 @@
+.About {
+    border: 5px solid rgb(255, 175, 3);
+   
+    height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* เพิ่ม Shadow */
+    border-radius: 20px;  
+    padding: 20px;  
+    margin-top: 50px;
+}

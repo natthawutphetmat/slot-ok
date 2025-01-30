@@ -1,0 +1,61 @@
+
+.topa, .topb {
+    border: 5px solid rgb(255, 175, 3);
+    width: 48%;
+    height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* เพิ่ม Shadow */
+    border-radius: 20px; /* เพิ่มมุมโค้งเล็กน้อย */
+    padding: 20px; /* เพิ่มระยะห่างด้านใน */
+    margin-top: 50px;
+}
+
+
+.topa img {
+    width: 100%;
+    height: 100%;
+}
+.topb img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ปรับปรุงปุ่มให้ดูสวยงามและเคลื่อนไหว */
+.btn-custom {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ปุ่มเข้าสู่ระบบ - Gradient Blue */
+.btn-login {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    box-shadow: 0px 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.btn-login:hover {
+    background: linear-gradient(45deg, #0056b3, #003d82);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 123, 255, 0.6);
+}
+
+/* ปุ่มสมัครสมาชิก - Gradient Green */
+.btn-register {
+    background: linear-gradient(45deg, #28a745, #1e7e34);
+    box-shadow: 0px 4px 15px rgba(40, 167, 69, 0.4);
+}
+
+.btn-register:hover {
+    background: linear-gradient(45deg, #1e7e34, #155724);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(40, 167, 69, 0.6);
+}

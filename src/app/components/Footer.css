@@ -1,0 +1,60 @@
+.footer-wrapper {
+    background: linear-gradient(180deg, #000, #222);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  /* เมนูมือถือ */
+  .menu-mobile {
+    display: flex;
+    justify-content: space-around;
+    background: #222;
+    padding: 10px 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-mobile-row {
+    text-align: center;
+  }
+  
+  .menu-mobile-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .menu-mobile-btn:hover {
+    color: #ffcc00;
+  }
+  
+  /* Logo */
+  .footer-logo {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    background: #111;
+    font-size: 14px;
+  }
+  
+  /* ปุ่มกลับด้านบน */
+  .back-to-top {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background: #ff9800;
+    border-radius: 5px;
+    width: 150px;
+    margin: 20px auto;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .back-to-top:hover {
+    background: #e68900;
+  }
+  
