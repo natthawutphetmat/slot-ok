@@ -16,9 +16,9 @@ export default function Header() {
               alt="สล็อตเว็บตรง" 
             />
             <div className="d-grid gap-2 mt-3">
-              <button className="btn btn-custom btn-login" type="button">
+              <a href="https://pgautofree.shop" className="btn btn-custom btn-login" type="button">
                 <h4>เข้าสู่ระบบ</h4>
-              </button>
+              </a>
             </div>
           </div>
           <div className="topb">
@@ -30,9 +30,9 @@ export default function Header() {
               alt="ฝาก-ถอน" 
             />
             <div className="d-grid gap-2 mt-3">
-              <button className="btn btn-custom btn-register" type="button">
+              <a href="https://pgautofree.shop" className="btn btn-custom btn-register" type="button">
                 <h4>สมัครสมาชิก</h4>
-              </button>
+              </a>
             </div>
           </div>
         </div>
